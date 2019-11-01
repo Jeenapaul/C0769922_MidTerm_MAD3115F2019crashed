@@ -34,8 +34,14 @@ class LoginViewController: UIViewController {
             
             let myStoryBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             
-            let nextVC = myStoryBoard.instantiateViewController(withIdentifier: "CustomerVC") as! 
-    @IBAction func RememberMe(_ sender: UISwitch) {
+            let nextVC = myStoryBoard.instantiateViewController(withIdentifier: "CustomerVC") as! CustomerListTableViewController
+            self.present(nextVC, animated: true, completion: nil)
+            
+            
+            
+        }
+            
+        else        @IBAction func RememberMe(_ sender: UISwitch) {
     }
     
 }
