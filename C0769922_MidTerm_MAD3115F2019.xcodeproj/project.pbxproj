@@ -17,6 +17,7 @@
 		9B97C06F236CC06C00D72801 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97C06E236CC06C00D72801 /* Bill.swift */; };
 		9B97C071236CC0D200D72801 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97C070236CC0D200D72801 /* Customer.swift */; };
 		9B97C073236CC13100D72801 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97C072236CC13100D72801 /* Hydro.swift */; };
+		9B97C075236CC14C00D72801 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97C074236CC14C00D72801 /* IDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9B97C06E236CC06C00D72801 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		9B97C070236CC0D200D72801 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		9B97C072236CC13100D72801 /* Hydro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		9B97C074236CC14C00D72801 /* IDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		9B97C06D236CBED900D72801 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				9B97C074236CC14C00D72801 /* IDisplay.swift */,
 				9B97C072236CC13100D72801 /* Hydro.swift */,
 				9B97C070236CC0D200D72801 /* Customer.swift */,
 				9B97C06E236CC06C00D72801 /* Bill.swift */,
@@ -170,6 +173,7 @@
 				9B97C06F236CC06C00D72801 /* Bill.swift in Sources */,
 				9B97C071236CC0D200D72801 /* Customer.swift in Sources */,
 				9B97C057236C999A00D72801 /* LoginViewController.swift in Sources */,
+				9B97C075236CC14C00D72801 /* IDisplay.swift in Sources */,
 				9B97C06C236CB15A00D72801 /* CustomerListTableViewController.swift in Sources */,
 				9B97C073236CC13100D72801 /* Hydro.swift in Sources */,
 				9B97C055236C999A00D72801 /* AppDelegate.swift in Sources */,
