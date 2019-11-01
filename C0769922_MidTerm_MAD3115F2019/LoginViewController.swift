@@ -41,7 +41,14 @@ class LoginViewController: UIViewController {
             
         }
             
-        else        @IBAction func RememberMe(_ sender: UISwitch) {
+        else
+        {
+            
+            let alert  =
+                
+                UIAlertController(title: "Error", message: "User Email / Password incorrect", preferredStyle: UIAlertController.Style.alert)
+            
+            //UIAlertControlle        @IBAction func RememberMe(_ sender: UISwitch) {
     }
     
 }
