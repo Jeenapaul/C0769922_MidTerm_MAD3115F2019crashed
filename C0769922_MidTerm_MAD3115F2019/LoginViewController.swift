@@ -27,7 +27,9 @@ class LoginViewController: UIViewController {
         
     {
         
- 
+        if(txtuserName.text == "jeenapaul1014@gmail.com" && Password.text == "jeenapaul")
+     
+        
     @IBAction func RememberMe(_ sender: UISwitch) {
     }
     
