@@ -14,6 +14,7 @@
 		9B97C05F236C999C00D72801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B97C05D236C999C00D72801 /* LaunchScreen.storyboard */; };
 		9B97C068236C9B7E00D72801 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B97C067236C9B7E00D72801 /* images.png */; };
 		9B97C06C236CB15A00D72801 /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97C06B236CB15A00D72801 /* CustomerListTableViewController.swift */; };
+		9B97C06F236CC06C00D72801 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97C06E236CC06C00D72801 /* Bill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9B97C060236C999C00D72801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B97C067236C9B7E00D72801 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
 		9B97C06B236CB15A00D72801 /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
+		9B97C06E236CC06C00D72801 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		9B97C053236C999A00D72801 /* C0769922_MidTerm_MAD3115F2019 */ = {
 			isa = PBXGroup;
 			children = (
+				9B97C06D236CBED900D72801 /* Class */,
 				9B97C066236C9B6F00D72801 /* New Group */,
 				9B97C054236C999A00D72801 /* AppDelegate.swift */,
 				9B97C056236C999A00D72801 /* LoginViewController.swift */,
@@ -76,6 +79,14 @@
 				9B97C067236C9B7E00D72801 /* images.png */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		9B97C06D236CBED900D72801 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9B97C06E236CC06C00D72801 /* Bill.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B97C06F236CC06C00D72801 /* Bill.swift in Sources */,
 				9B97C057236C999A00D72801 /* LoginViewController.swift in Sources */,
 				9B97C06C236CB15A00D72801 /* CustomerListTableViewController.swift in Sources */,
 				9B97C055236C999A00D72801 /* AppDelegate.swift in Sources */,

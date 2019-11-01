@@ -17,7 +17,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var Password: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+     
     }
 
   
@@ -44,9 +44,6 @@ class LoginViewController: UIViewController {
             let nextVC = myStoryBoard.instantiateViewController(withIdentifier: "CustomerVC") as! CustomerListTableViewController
             
             self.present(nextVC, animated: true, completion: nil)
-            
-            
-            
         }
             
         else
@@ -58,7 +55,6 @@ class LoginViewController: UIViewController {
             
             alert.addAction(actionOk)
             self.present(alert, animated: true, completion: nil)
-            
 }
 
 }
