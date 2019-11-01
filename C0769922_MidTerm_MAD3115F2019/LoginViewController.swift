@@ -34,39 +34,7 @@ class LoginViewController: UIViewController {
             
             let myStoryBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             
-            let nextVC = myStoryBoard.instantiateViewController(withIdentifier: "CustomerVC") as! CustomerListTableViewController
-            
-            self.present(nextVC, animated: true, completion: nil)
-            
-            
-            
-        }
-            
-        else
-            
-        {
-            
-            let alert  =
-                
-                UIAlertController(title: "Error", message: "User Email / Password incorrect", preferredStyle: UIAlertController.Style.alert)
-            
-            //UIAlertController.Style.alert
-            
-            
-            
-            let actionOk = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
-            
-            alert.addAction(actionOk)
-            
-            
-            
-            //Step - 4
-            
-            //Present Alert Dialog to the user
-            
-            self.present(alert, animated: true, completion: nil)
-            
-        }
+            let nextVC = myStoryBoard.instantiateViewController(withIdentifier: "CustomerVC") as! 
     @IBAction func RememberMe(_ sender: UISwitch) {
     }
     
