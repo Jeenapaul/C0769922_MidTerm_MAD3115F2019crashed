@@ -13,7 +13,7 @@
 		9B97C05C236C999C00D72801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B97C05B236C999C00D72801 /* Assets.xcassets */; };
 		9B97C05F236C999C00D72801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B97C05D236C999C00D72801 /* LaunchScreen.storyboard */; };
 		9B97C068236C9B7E00D72801 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B97C067236C9B7E00D72801 /* images.png */; };
-		9B97C06A236CAAD900D72801 /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97C069236CAAD900D72801 /* CustomerListTableViewController.swift */; };
+		9B97C06C236CB15A00D72801 /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97C06B236CB15A00D72801 /* CustomerListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		9B97C05E236C999C00D72801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B97C060236C999C00D72801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B97C067236C9B7E00D72801 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
-		9B97C069236CAAD900D72801 /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
+		9B97C06B236CB15A00D72801 /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				9B97C05B236C999C00D72801 /* Assets.xcassets */,
 				9B97C05D236C999C00D72801 /* LaunchScreen.storyboard */,
 				9B97C060236C999C00D72801 /* Info.plist */,
-				9B97C069236CAAD900D72801 /* CustomerListTableViewController.swift */,
+				9B97C06B236CB15A00D72801 /* CustomerListTableViewController.swift */,
 			);
 			path = C0769922_MidTerm_MAD3115F2019;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B97C057236C999A00D72801 /* LoginViewController.swift in Sources */,
-				9B97C06A236CAAD900D72801 /* CustomerListTableViewController.swift in Sources */,
+				9B97C06C236CB15A00D72801 /* CustomerListTableViewController.swift in Sources */,
 				9B97C055236C999A00D72801 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

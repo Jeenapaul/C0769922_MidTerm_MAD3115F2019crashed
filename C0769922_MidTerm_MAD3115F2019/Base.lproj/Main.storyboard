@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Login View Controller-->
+        <!--Sign In-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="C0769922_MidTerm_MAD3115F2019" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,23 +35,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaM-um-s9A">
-                                <rect key="frame" x="186" y="359" width="42" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Login"/>
-                                <connections>
-                                    <action selector="Login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Ks-j5-3PQ"/>
-                                </connections>
-                            </button>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oUb-c7-fdC">
-                                <rect key="frame" x="181" y="417" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.70256735199999998" green="0.27405219320000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="RememberMe:" destination="BYZ-38-t0r" eventType="valueChanged" id="CUA-Lu-syV"/>
-                                </connections>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remember Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBd-GM-82T">
                                 <rect key="frame" x="163" y="449" width="88" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -59,11 +42,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vUy-6h-PDA">
+                                <rect key="frame" x="175" y="362" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="RememberMe:" destination="BYZ-38-t0r" eventType="valueChanged" id="W55-3r-cLx"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ghL-E0-xoI"/>
+                    <navigationItem key="navigationItem" title="Sign In" id="ghL-E0-xoI"/>
                     <connections>
                         <outlet property="EmailID" destination="JPQ-nA-UWa" id="1MM-XX-im8"/>
                         <outlet property="Password" destination="WZy-xZ-5Ph" id="IID-g2-XWv"/>
@@ -74,23 +64,19 @@
             <point key="canvasLocation" x="1931.8840579710147" y="138.61607142857142"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="bgg-UJ-KAQ">
+        <scene sceneID="1hc-5c-7b5">
             <objects>
-                <viewController id="RdS-os-DW7" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Wcl-cm-UhG">
+                <viewController id="zu2-CT-WWp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Csk-Cx-OFy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="5Rb-C4-pbe"/>
+                        <viewLayoutGuide key="safeArea" id="epv-bH-Qao"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="zqG-s2-kPg"/>
-                    </toolbarItems>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mIf-km-6rK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4L3-O2-OQH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2576.811594202899" y="138.61607142857142"/>
+            <point key="canvasLocation" x="2643" y="145"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ziL-r5-ZF7">
